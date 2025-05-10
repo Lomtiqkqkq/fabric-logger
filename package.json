@@ -1,0 +1,36 @@
+{
+  "name": "@lomtiqk/fabric-logger",
+  "version": "1.0.0",
+  "description": "Factory logger to create a personalized logger for his own",
+  "keywords": [
+    "logger",
+    "fabric",
+    "custom",
+    "personalize"
+  ],
+  "homepage": "https://github.com/Lomtiqkqkq/fabric-logger#readme",
+  "bugs": {
+    "url": "https://github.com/Lomtiqkqkq/fabric-logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lomtiqkqkq/fabric-logger.git"
+  },
+  "license": "ISC",
+  "author": "lomtiqk",
+  "type": "module",
+  "main": "lib/index.cjs",
+  "types": "lib/index.d.ts",
+  "module": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17"
+  }
+}
